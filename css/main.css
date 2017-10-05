@@ -107,8 +107,8 @@ body {
     width: auto;
 }
 .second-logo {
-   margin-top: 40px;
-   height: 60px;
+ margin-top: 40px;
+ height: 60px;
 }
 .header-fixed .logo a  .second-logo {
     margin-top: 20px;
@@ -196,14 +196,14 @@ body {
     padding-right:6px;
 }
 .header-login ul li:first-child > a {
-        background: #fbad1a;
+    background: #fbad1a;
     padding: 10px;
     margin-left: 10px;
     border-radius: 5px;
     color: #fff;
 }
 .header-login ul li:last-child > a {
-        background: #23527c;
+    background: #23527c;
     padding: 10px;
     margin-left: 10px;
     border-radius: 5px;
@@ -242,15 +242,15 @@ h1, h2, h3, h4  {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 .aboutblk .row > .col-md-8 {
- padding:35px 55px 0;
+   padding:35px 55px 0;
 }
 .aboutblk h2 {
- margin-top: 0;
- margin-bottom: 30px;
- font-size: 28px;
- font-weight: 300;
- line-height: 1.25;
- color: #000;
+   margin-top: 0;
+   margin-bottom: 30px;
+   font-size: 28px;
+   font-weight: 300;
+   line-height: 1.25;
+   color: #000;
 }
 .aboutblk h5 {
     color: #fff;
@@ -260,21 +260,62 @@ h1, h2, h3, h4  {
     margin-bottom: 20px;
 }
 .abt-box h5 {
- color: #88b3d6;
- font-size: 18px; 
- font-weight: 500;
- margin:15px 0 5px 0; 
+   color: #88b3d6;
+   font-size: 18px; 
+   font-weight: 500;
+   margin:15px 0 5px 0; 
 }
 .abt-box p {
- color: #666;
- font-size: 13px; 
- line-height: 22px;
- font-weight: 400;
+   color: #666;
+   font-size: 13px; 
+   line-height: 22px;
+   font-weight: 400;
 }
 .abt-mesg {
     background: #272c3f;
     height: 400px;
     position: relative;
+}
+.abt-mesg a {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.abt-mesg a:before {
+    content: 'Read More';
+    font-size: 15px;
+    border: 2px #fff solid;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -0px 0 0 -55px;
+    z-index: 99;
+    background: #fff;
+    color: #fd6c00;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s 0.2s ease;
+    -moz-transition: all 0.5s 0.2s ease;
+    -o-transition: all 0.5s 0.2s ease;
+    transition: all 0.5s 0.2s ease;
+}
+.abt-mesg a:hover {
+    background-color: rgba(39, 44, 63,0.8);
+}
+.abt-mesg a:Hover:before {
+    margin: -24px 0 0 -55px;
+    opacity: 1;
+    visibility: visible;
 }
 .abt-mesg:after {
     position: absolute;
@@ -292,7 +333,7 @@ h1, h2, h3, h4  {
 }
 .abt-mesg h4 {
     color: #fff;
-    padding: 15px 25px 0px 10px;
+    padding: 15px 25px 0px 30px;
     display: block;
     /*background: #46a5d2;*/
     font-size: 20px;
@@ -300,13 +341,14 @@ h1, h2, h3, h4  {
 }
 .abt-mesg p {
     color: #fff;
-    font-size: 13px;
-    line-height: 22px;
-    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 10px 10px 10px 30px;
+    font-weight: 300;
 }
 .abt-mesg h5 {
     color: #fff;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
     font-size: 18px;
     font-weight: 500;
     line-height: 20px
@@ -562,15 +604,15 @@ h1, h2, h3, h4  {
     /*About Page */
     .innerban {
         margin-top: 120px;
-    width: 100%;
-    height: 280px;
-    background-color: #123160 !important;
-}
+        width: 100%;
+        height: 280px;
+        background-color: #123160 !important;
+    }
 
 }
 .innerban.ban-about {
     background: url(../images/innerban/about.jpg) center center no-repeat;
-    }
+}
 .ban-activities {
     background: url(../images/innerban/activities.jpg) center center no-repeat;
 }
@@ -667,14 +709,14 @@ h1, h2, h3, h4  {
     padding-left: 20px;
 }
 .adress-section h6 {
-        color: #77c73b;
+    color: #77c73b;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 6px;
     text-transform: uppercase;
 }
 .adress-section p {
-        font-size: 16px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     margin-bottom: 0;
@@ -712,14 +754,14 @@ h1, h2, h3, h4  {
 }
 .sponsor {
     width: 500px;
-   margin:15px 0;
+    margin:15px 0;
     
 
 }
 .sponsor td {
-     border:1px #ccc solid;
-    padding:10px;
-    background-color: #fcfcfc;
+   border:1px #ccc solid;
+   padding:10px;
+   background-color: #fcfcfc;
 }
 .sponsor td:last-child {
     font-weight:700;
@@ -732,7 +774,7 @@ h1, h2, h3, h4  {
     padding: 10px;
     overflow: hidden;
     border:1px #eee solid;
-        margin-top: -1px;
+    margin-top: -1px;
     margin-right: -1px;
 }
 .galimg {
@@ -758,15 +800,50 @@ h1, h2, h3, h4  {
 }
 
 .popup-gallery a {
-     width: 15%;
-    float: left;
-    display: block;
-    padding: 10px;
-    border:1px #eee solid;
-    margin-right: 1%;
-    margin-bottom: 1%
+   width: 15%;
+   float: left;
+   display: block;
+   padding: 10px;
+   border:1px #eee solid;
+   margin-right: 1%;
+   margin-bottom: 1%
 }
 .popup-gallery a img {
     width:100%;
     height: 120px;
+}
+.bankDetails {
+    background-color: #3c763d;
+    padding: 15px;
+}
+.aboutpage .bankDetails ul {
+    padding: 15px;
+    border:2px rgba(0,0,0,0.2) dashed;
+}
+.aboutpage .bankDetails ul li::before {
+    display: none !important;
+}
+.aboutpage .bankDetails ul li {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff !important;
+}
+.aboutpage .bankDetails ul li span {
+    font-size: 14px;
+    color: #b0ceb0;
+    font-weight: bold;
+}
+.aboutpage .bankDetails ul li h6 {
+    font-size:16px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+    text-transform: uppercase;
+}
+.featureDivider {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px #eee solid;
 }
