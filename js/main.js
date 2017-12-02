@@ -1,6 +1,14 @@
   jQuery(document).ready(function( $ ) {
     
-   
+   // Mobile Menu
+   if($(window).width() <= 991){
+     $("#menu").mmenu({
+       "offCanvas": {
+         "position": "right"
+       }
+     });
+   }
+
    $(window).scroll(function () {
     var height = $(window).scrollTop();
     if (height > 50) {
